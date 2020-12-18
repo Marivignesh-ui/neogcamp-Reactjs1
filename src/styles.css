@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+  text-align: left;
+}
+body {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.4)
+    ),
+    url("movielogo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+ul {
+  display: inline;
+  list-style: none;
+  text-align: left;
+  margin-left: 0px;
+}
+li {
+  border: solid 1px;
+  border-color: lightslategray;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 7px;
+  background-color: #fafffe;
+  line-height: 150%;
+}
+button {
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: aqua;
+}
+footer {
+  margin-top: 5%;
+  background-color: aqua;
+  text-align: center;
+  padding: 2px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
